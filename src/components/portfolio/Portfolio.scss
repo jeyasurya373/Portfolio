@@ -1,0 +1,93 @@
+@import "../../global.scss";
+
+.portfolio{
+    background-color: white;
+    display: flex;
+
+    
+    .left{
+        flex:3;
+        background-color:white;
+        overflow: hidden;
+        align-content: center;
+        
+        h1{
+           padding: 10px;
+            color: $mainColor;
+            
+        }
+
+        p{
+             display: flex;
+            // padding: 30px;
+            padding-top: 80px;            
+            font-size: 18px;
+            word-spacing: 7px;
+            line-height: 28pt;
+            font-weight: 500;
+            align-content: center;
+            justify-content: column;
+            justify-items: center;
+            
+
+            
+        }
+        .guvi{
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 5px;
+                
+        
+        a{
+
+            color:$mainColor;
+        text-decoration: none;
+        }
+        
+    }
+
+        .resume{
+            font-size: 25px;
+            font-weight: 700;
+            .download{
+                margin-top: 5px;
+                padding-right: 2px;
+            }
+            a{
+                color:$mainColor;
+            text-decoration: none;
+            }
+            
+            
+            padding-bottom: 30px;
+            
+        }
+
+        .see{
+            font-size: 25px;
+            font-weight: 700;
+            a{
+                color:$mainColor;
+            text-decoration: none;
+            }
+            padding-top: 20px;
+            
+        }
+        
+        
+    }
+
+    .right{
+        flex:2;
+        background-color: white;
+
+        img{
+           
+            
+            width:70%;
+            
+        }
+        
+        
+    }
+}

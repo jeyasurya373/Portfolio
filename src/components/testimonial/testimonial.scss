@@ -1,0 +1,62 @@
+@import "../../global.scss";
+
+.testimonial{
+    background-color: white;
+    display:flex;
+    
+
+    .left{
+        flex:2;
+        overflow:hidden;
+
+        
+        h1{
+            padding:10px;
+            padding-left: 10px;
+            color: $mainColor;
+        }
+       
+
+        img{
+            display: flex;
+            padding: 0px;
+            padding-left:100px;
+            padding-bottom: 10px;
+            width: 60%;
+            overflow: hidden;
+        }
+        
+    }
+    
+    .right{
+        flex: 3;
+        overflow: hidden;
+        
+       
+
+        p{
+           
+            color:$mainColor;
+            display: flex;
+            word-wrap: break-word;
+            padding-top: 70px;
+            padding-right: 10px;
+            align-items: center;
+            justify-content: column;
+            justify-items: center;
+            font-size:18px;
+             word-spacing: 5px;
+            line-height: 28pt;
+            font-weight: 600;
+
+           
+
+            
+            
+
+            
+        }
+    }
+}
+
+
